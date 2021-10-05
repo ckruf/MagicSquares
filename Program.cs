@@ -11,16 +11,6 @@ namespace MagicSquares
             SquareNode node = new SquareNode(4);
             List<SquareNode> magicSquareList = new List<SquareNode>();
             FindMagicSquare(node, magicSquareList);
-            Console.WriteLine("###########");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("Drumroll please.....");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("###########");
-
-            Thread.Sleep(3000);
-
             foreach (SquareNode magicSquare in magicSquareList)
             {
                 magicSquare.PrintSquare();
